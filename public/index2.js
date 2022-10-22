@@ -4,7 +4,7 @@ async function main() {
   const averagePriceChartCanvas = document.querySelector('#average-price-chart');
 
   
-  // fetch("https://api.twelvedata.com/time_series?symbol=GME, MSFT, DIS, BNTX&interval=1min&format=JSON&apikey=0d5e3163b5f5467896ad4dece2981244")
+  // fetch("https://api.twelvedata.com/time_series?symbol=GME, MSFT, DIS,   BNTX&interval=1min&format=JSON&apikey=0d5e3163b5f5467896ad4dece2981244")
   // .then((response) => response.json())
   // .then((data) => console.log(data));
 
@@ -82,3 +82,6 @@ async function main() {
 }
 
 main()
+
+
+  
